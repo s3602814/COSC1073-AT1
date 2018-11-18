@@ -48,10 +48,10 @@ public class RobotControl implements Control {
 	public void control(Robot robot, int barHeightsDefault[], int blockHeightsDefault[]) {
 		this.robot = robot;
 
-		// this.barHeights = new int[] { 3, 4, 1, 5, 2, 3, 2, 6 };
-		// this.blockHeights = new int[] { 3, 2, 1, 2, 1, 1, 2, 2, 1, 1, 2, 1, 2, 3 };
-		this.barHeights = barHeightsDefault;
-		this.blockHeights = blockHeightsDefault;
+		this.barHeights = new int[] { 3, 4, 1, 5, 2, 3, 2, 6 };
+		this.blockHeights = new int[] { 3, 2, 1, 2, 1, 1, 2, 2, 1, 1, 2, 1, 2, 3 };
+		//this.barHeights = barHeightsDefault;
+		//this.blockHeights = blockHeightsDefault;
 
 		// Initialise the robot
 		robot.init(this.barHeights, this.blockHeights, height, width, depth);
