@@ -1,5 +1,5 @@
 # COSC1073 AT1 | Robot Simulation Part A
-**Course Name:** Programming 1
+**Course Name:** Programming 1 (2017, Semester 2)
 
 A Java project that moves a robot arm around, picks blocks from two source columns and places the picked block onto a bar (from left to right, then loops back from right to left).
 
